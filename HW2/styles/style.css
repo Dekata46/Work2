@@ -1,0 +1,246 @@
+@import url(./fonts.css);
+@import url(./reset.css);
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.header {
+  padding: 20px 0 0 0;
+}
+
+.header .wrapper {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  font-style: normal;
+  color: #1e1e1e;
+}
+
+.nav {
+  width: 100%;
+  max-width: 399px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  font-style: normal;
+  color: rgba(30, 30, 30, 0.6);
+}
+
+.nav-link:hover {
+  color: rgba(30, 30, 30, 1);
+}
+
+.nav-link-active {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  font-style: normal;
+  color: rgba(30, 30, 30, 1);
+
+  border-bottom: 2px solid #b1404b;
+}
+
+.promo {
+  margin-top: 122px;
+}
+
+.promo .wrapper {
+  position: relative;
+
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.promo-img1 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99;
+
+  width: 100%;
+  max-width: 180px;
+  height: 220px;
+}
+
+.promo-img2 {
+  position: absolute;
+  top: 0;
+  right: 100px;
+  z-index: -999;
+
+  width: 100%;
+  max-width: 361px;
+  height: 420px;
+}
+
+.welcom {
+  margin-top: 2px;
+  padding: 5px 10px;
+  border: 1px solid #1e1e1e;
+
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 30px;
+  font-style: normal;
+  color: #1e1e1e;
+}
+
+.promo h1 {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 480px;
+
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  font-style: normal;
+  color: #1e1e1e;
+}
+
+.promo-text {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 480px;
+
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  font-style: normal;
+  color: rgba(30, 30, 30, 0.8);
+}
+
+.promo-btn {
+  margin-top: 30px;
+  padding: 10px 30px;
+  background-color: #b1404b;
+  box-shadow: 0px 6px 40px 0px rgba(50, 50, 50, 0.15),
+    0px 4px 12px 0px rgba(61, 56, 56, 0.16),
+    0px 0px 16px 0px rgba(0, 0, 0, 0.05) inset;
+
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+  font-style: normal;
+  color: #fff4f5;
+}
+
+.promo-icons {
+  margin-top: 40px;
+  width: 100%;
+  max-width: 210px;
+}
+
+.promo-icons img {
+  margin-left: -23px;
+
+  width: 100%;
+  max-width: 56px;
+  height: 56px;
+  border-radius: 56px;
+  overflow: hidden;
+}
+
+.promo-icons img:first-child {
+  margin-left: 0px;
+}
+
+.hero {
+  margin-top: 123px;
+}
+
+.hero .wrapper {
+  box-shadow: 0px 6px 40px 0px rgba(50, 50, 50, 0.15),
+    0px 4px 12px 0px rgba(61, 56, 56, 0.16),
+    0px 0px 16px 0px rgba(0, 0, 0, 0.05) inset;
+
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.products {
+  width: 100%;
+  max-width: 253px;
+  padding: 40px 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.products-icon {
+  width: 100%;
+  max-width: 70px;
+  height: 80px;
+  box-shadow: 0px 6px 40px 0px rgba(50, 50, 50, 0.15),
+    0px 4px 12px 0px rgba(61, 56, 56, 0.16),
+    0px 0px 16px 0px rgba(0, 0, 0, 0.05) inset;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products-text {
+  width: 100%;
+  max-width: 163px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.products-text h2 {
+  width: 100%;
+  max-width: 163px;
+
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  font-style: normal;
+  color: #1e1e1e;
+}
+
+.products-text p {
+  margin-top: 5px;
+  width: 100%;
+  max-width: 163px;
+
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  font-style: normal;
+  color: rgba(30, 30, 30, 0.5);
+}
